@@ -53,6 +53,7 @@ export default function MovieListByGenre(props) {
     if (curSlide > 0) {
       setCurSlide(prevSlide => prevSlide - 1);
     }
+    
   };
 
   return (
